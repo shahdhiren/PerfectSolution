@@ -1,0 +1,125 @@
+body {
+	background: url(img/body-bkg.png) repeat scroll;
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	margin: 0pt auto;
+	width:950px;
+}
+
+#header{
+	background: url(img/hdr-bkg.png) repeat-x scroll;
+	height:160px; 
+	position:absolute;
+	z-index :100;
+	top: 0px;
+	left:0px;
+	width:100%;
+}
+
+#imgs
+{
+	width: 700px;
+	margin: 10px auto;
+	min-height: 160px;
+	text-align:center;
+}
+
+#ex5 img:hover {  
+   opacity: 1.2;
+ 
+   /*Reflection*/
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.6, transparent), to(rgba(0,0,0,0.7)));
+ 
+    /*Glow*/
+  -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.9);
+  -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.9);
+  box-shadow: 0px 0px 20px rgba(255,255,255,0.9);
+}
+
+#navigation{
+	height:80px;   /*80px*/
+}
+
+#home, #home div, 
+#about, #about div, 
+#services , #services div, 
+#contact,  #contact div {
+	height:80px;
+	position:absolute;
+	width:97px;
+	float: left;
+}
+
+#home, #about, #services, #contact{
+	background-image: url(img/nav.png);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	top:159px;
+}
+
+#home{
+	background-position: 0px -25px;
+	margin-left:6px;   
+}
+
+#about{
+	background-position: -98px -25px;
+	margin-left:105px;
+}
+
+#services{
+	background-position: -196px -25px;
+	margin-left:204px;
+}
+
+#contact
+{
+	background-position: -294px -25px;
+	margin-left:303px;
+}
+
+#home div, #about div, #services div, #contact div {
+	background-image: url(img/white.png);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: 0px -60px;	
+}	
+
+.pri-nav a{
+	display:block;		
+	text-decoration:none;
+	text-indent: -30000px; /*-30000*/
+}
+
+.content{
+	margin-top:135px; /*135*/
+}
+
+#content-title{
+	background-color: Gray;
+	min-height:400px;
+	min-width:800px;
+	position:absolute;
+	border-radius: 10px 10px;
+	-moz-border-radius: 10px 10px / 10px 10px;
+	-webkit-box-shadow: 0 0 10x #bbb;
+	-moz-box-shadow: 0 0 10px #bbb;
+	box-shadow: 0 0 10px #bbb;
+	
+	padding: 14px 14px 14px 20px;
+}
+
+#footr{
+	/*background-color  :#ffffff;*/
+	height:auto;
+	position: absolute;  
+	z-index :100;
+	top: auto;
+	bottom:5px;
+	left:0px;
+	width:100%;
+	text-align: center;
+}

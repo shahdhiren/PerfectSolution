@@ -1,0 +1,22 @@
+#outer {
+    position: relative;
+    display:none;
+    margin:10px auto 0;
+    overflow:hidden;
+    background-color: Transparent;
+ }
+
+#inner0,#inner1 {
+    position:absolute;
+    padding:8px 0;
+ }
+ 
+#inner0 img,#inner1 img {
+    float:left;
+    padding:4px;
+	margin:0 4px;
+    background-color: Transparent;
+    cursor:pointer;   
+    width:80px;
+    height:40px;   
+}
